@@ -1,0 +1,5 @@
+/* Final type pass: keep Chinese headings readable and let the browser wrap naturally. */
+.hero-grid{padding-top:68px}
+.hero h1{max-width:760px;font-size:clamp(48px,6vw,78px);line-height:1.06;letter-spacing:-.085em}
+.profile h2,.contact h2{line-height:1.06}
+@media(max-width:520px){.hero h1{font-size:53px;line-height:1.08}}
