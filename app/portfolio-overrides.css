@@ -28,3 +28,22 @@
 .profile h2,.contact h2{letter-spacing:-.03em;line-height:1.18}
 .contact-details{display:flex;flex-direction:column;gap:8px;margin-top:24px;color:#ddd;font-size:13px;line-height:1.5;letter-spacing:.03em}
 @media(max-width:520px){.animated-heading{font-size:40px;line-height:1.22}.hero-intro{font-size:14px}.case-copy h2{font-size:30px}.contact-details{font-size:12px}}
+
+/* Light portfolio pass: calm paper background, warm accent, complete character sheets. */
+:root{--bg:#f7f7f4;--paper:#f7f7f4;--ink:#171717;--muted:#6e6e68;--line:rgba(23,23,23,.15);--soft:rgba(23,23,23,.05);--accent:#b56f4a}
+body,.work,.case,.architecture,.profile,.contact{background:var(--bg);color:var(--ink)}
+.hero-reference{background:var(--bg);color:var(--ink)}
+.hero-video{opacity:.12;filter:grayscale(1);mix-blend-mode:multiply}
+.liquid-glass{background:rgba(255,255,255,.78);color:var(--ink)}
+.nav-links,.hero-kicker,.hero-intro,.hero-tag{color:#252525}
+.nav-cta,.button-light{background:#171717;color:#fff}
+.case-section p,.contact-details{color:#383832}
+.visual-frame.jingye{background:#eeeae3}
+.character-strip{grid-template-columns:1fr;gap:14px}
+.character-strip figure{background:#eeeae3}
+.character-strip img{height:auto;aspect-ratio:auto;object-fit:contain;background:#eeeae3}
+.case-visual:has(.visual-frame.jingye){grid-template-columns:minmax(190px,.65fr) minmax(0,1.35fr)}
+.case-visual:has(.visual-frame.jingye) .visual-frame{height:auto;min-height:620px}
+.case-visual:has(.visual-frame.jingye) .character-strip{grid-template-columns:1fr;gap:14px}
+.case-visual:has(.visual-frame.jingye) .character-strip img{height:auto}
+@media(max-width:850px){.case-visual:has(.visual-frame.jingye) .visual-frame{min-height:0;height:auto}.case-visual:has(.visual-frame.jingye) .character-strip{grid-template-columns:1fr}}
