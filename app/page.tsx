@@ -34,7 +34,7 @@ function FadeIn({ children, delay = 0, className = "" }: { children: React.React
 }
 
 function AnimatedHeading() {
-  const lines = ["从建筑出发，", "把复杂做成产品。"];
+  const lines = ["把复杂问题，", "理成清楚的产品。"];
   const [visible, setVisible] = useState(false);
   useEffect(() => { const timer = window.setTimeout(() => setVisible(true), 200); return () => window.clearTimeout(timer); }, []);
   return <h1 className="animated-heading">{lines.map((line, lineIndex) => <span className="heading-line" key={line}>{[...line].map((char, charIndex) => <span key={`${line}-${charIndex}`} className="heading-char" style={{ transitionDelay: `${200 + (lineIndex * line.length + charIndex) * 30}ms`, opacity: visible ? 1 : 0, transform: visible ? "translateX(0)" : "translateX(-18px)" }}>{char === " " ? "\u00a0" : char}</span>)}</span>)}</h1>;
