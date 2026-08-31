@@ -47,11 +47,14 @@ export default function Home() {
 
   return (
     <main id="top">
-      <section className="hero-reference">
-        <img className="hero-video" src="/projects/hero-architecture.png" alt="建筑结构与数据网格构成的作品集封面背景" />
+      <section className="hero-reference hero-about">
         <div className="hero-reference-inner shell">
-          <nav className="topbar liquid-glass"><a className="wordmark" href="#top">何蓬熙 <span>/ Humphcey</span></a><div className="nav-links"><a href="#work">项目</a><a href="#profile">关于我</a><a href="#contact">联系方式</a></div><a className="nav-cta" href="#contact">聊聊合作</a></nav>
-          <div className="hero-content"><div className="hero-main"><div className="hero-kicker"><span>人工智能产品经理</span><span>杭州 · 2026</span></div><AnimatedHeading /><FadeIn delay={800}><p className="hero-intro">我擅长把复杂的信息、流程和约束，整理成清楚、可验证、能落地的产品。</p></FadeIn><FadeIn delay={1200} className="hero-actions"><a className="button button-light" href="#work">查看项目 <span>↗</span></a><a className="button liquid-glass" href="#contact">聊聊合作 <span>↗</span></a></FadeIn></div><FadeIn delay={1400} className="hero-tag"><span>产品 · 交互 · 人工智能</span></FadeIn></div>
+          <nav className="topbar hero-about-nav"><a className="wordmark" href="#top">何蓬熙 <span>/ Humphcey</span></a><div className="nav-links"><a className="active" href="#profile">关于我</a><a href="#work">项目</a><a href="#contact">联系方式</a></div><a className="nav-cta" href="#contact">聊聊合作</a></nav>
+          <div className="hero-about-content">
+            <FadeIn delay={120} className="hero-portrait-wrap"><div className="hero-portrait-card"><img src="/profile-photo.png" alt="何蓬熙在浙江大学校园的照片" /><span className="portrait-note">AI 产品 · 交互 · 原型</span></div><a className="resume-link" href="#profile">个人介绍 <span>↗</span></a></FadeIn>
+            <div className="hero-about-copy"><FadeIn delay={220}><div className="hero-kicker"><span>个人介绍</span><span>杭州 · 2026</span></div><h1 className="hero-about-title">你好，我是<span>何蓬熙</span></h1><p className="hero-about-subtitle">人工智能产品经理 / 人机交互</p></FadeIn><FadeIn delay={520}><div className="hero-about-lines"><p>浙江大学建筑与城市设计硕士在读</p><p>从用户体验设计走向 AI 产品，把复杂问题整理成可用的产品。</p><p>关注信息结构、交互节奏，以及 AI 如何真正进入使用场景。</p></div></FadeIn><FadeIn delay={760}><div className="hero-about-pills"><span>产品设计</span><span>AI 应用</span><span>交互原型</span></div></FadeIn></div>
+          </div>
+          <a className="scroll-hint" href="#work"><span>↓</span>向下浏览项目</a>
         </div>
       </section>
 
