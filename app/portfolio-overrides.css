@@ -169,6 +169,7 @@ body,.work,.case,.architecture,.profile,.contact{background:var(--bg);color:var(
 .case-section{min-width:0}.case-section p{min-width:0;overflow-wrap:anywhere}
 .visual-frame.embedded-demo{height:500px}
 .visual-frame.embedded-demo iframe{width:125%;height:125%;transform:scale(.8);transform-origin:top left}
+.visual-frame.archmind iframe{width:1200px;height:860px;transform:scale(.48);transform-origin:top left}
 .visual-frame.jingye{height:500px;min-height:0!important;aspect-ratio:auto!important;overflow:hidden;padding:0;background:#eeeae3}
 .case-visual:has(.visual-frame.jingye){display:block}
 .case-visual:has(.visual-frame.jingye) .visual-frame{height:500px;min-height:0;aspect-ratio:auto}
@@ -191,3 +192,4 @@ body,.work,.case,.architecture,.profile,.contact{background:var(--bg);color:var(
 .jingye-guide-controls{display:flex;justify-content:space-between;align-items:center}.jingye-guide-dots{display:flex;gap:6px}.jingye-guide-dots button,.jingye-guide-replay{border:1px solid rgba(240,232,216,.26);background:transparent;color:#c7cbc2;border-radius:999px;cursor:pointer}.jingye-guide-dots button{width:27px;height:27px;font-size:10px}.jingye-guide-dots button.active{background:#d89b73;border-color:#d89b73;color:#10252a}.jingye-guide-replay{padding:7px 11px;font-size:10px}.jingye-guide button:focus-visible{outline:2px solid #d89b73;outline-offset:3px}
 @media(max-width:850px){.visual-frame.embedded-demo{height:430px}.visual-frame.jingye,.case-visual:has(.visual-frame.jingye) .visual-frame{height:430px}.jingye-guide{padding:12px;gap:10px}.jingye-guide-stage{padding:14px}.jingye-guide-copy strong{font-size:15px}}
 @media(max-width:520px){.visual-frame.embedded-demo{height:390px}.visual-frame.jingye,.case-visual:has(.visual-frame.jingye) .visual-frame{height:390px}.jingye-guide{padding:9px}.jingye-guide-stage{padding:10px}.jingye-guide-copy{grid-template-columns:1fr;gap:3px}.jingye-guide-copy p{grid-column:auto;margin-top:0}.jingye-guide-controls{gap:8px}.jingye-guide-dots{gap:3px}.jingye-guide-dots button{width:24px;height:24px}.role-grid{gap:5px}.role-card img{height:58px}.jingye-phone-panel{padding:16px}.jingye-phone-panel h3{font-size:19px}}
+.visual-frame.archmind iframe{width:1200px;height:860px;transform:scale(.48);transform-origin:top left}
