@@ -215,7 +215,7 @@ body,.work,.case,.architecture,.profile,.contact{background:var(--bg);color:var(
 @media(max-width:600px){.visual-frame.jingye iframe{width:153.846%;height:153.846%;transform:scale(.65)}}
 
 /* Keep the phone's native proportions; only scale the complete viewport into the card. */
-.visual-frame.jingye iframe{display:block;width:466px;height:876px;transform:scale(.57);transform-origin:top left}
-.case-visual:has(.visual-frame.jingye) .character-strip{grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:repeat(2,minmax(0,1fr));gap:10px;height:500px}
-@media(max-width:850px){.visual-frame.jingye iframe{width:466px;height:876px;transform:scale(.57)}.case-visual:has(.visual-frame.jingye) .character-strip{grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:repeat(2,minmax(0,1fr));height:460px}}
-@media(max-width:600px){.visual-frame.jingye iframe{width:466px;height:876px;transform:scale(.57)}.case-visual:has(.visual-frame.jingye) .character-strip{grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:repeat(2,minmax(0,1fr));height:360px}}
+.visual-frame.jingye iframe{display:block;width:466px;height:648px;transform:scale(.77);transform-origin:top left}
+.case-visual:has(.visual-frame.jingye) .character-strip{grid-template-columns:1fr;grid-template-rows:repeat(4,minmax(0,1fr));gap:8px;height:500px}
+@media(max-width:850px){.visual-frame.jingye iframe{width:466px;height:648px;transform:scale(.77)}.case-visual:has(.visual-frame.jingye) .character-strip{grid-template-columns:1fr;grid-template-rows:repeat(4,minmax(0,1fr));height:460px}}
+@media(max-width:600px){.visual-frame.jingye iframe{width:466px;height:648px;transform:scale(.77)}.case-visual:has(.visual-frame.jingye) .character-strip{grid-template-columns:1fr;grid-template-rows:repeat(4,minmax(0,1fr));height:500px}}
